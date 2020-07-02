@@ -3,7 +3,7 @@ void setup() {
   fullScreen();
   load();
   frameRate(2);
-  font = createFont("FinkHeavy.ttf", 64);
+  font = createFont("FinkHeavy.ttf", 76);
   textFont(font);
   textAlign(CENTER, CENTER);
 }
