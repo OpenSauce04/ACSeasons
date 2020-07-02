@@ -14,6 +14,10 @@ void draw() {
   } else {
     m=str(minute());
   }
-  image(grass[month()],0,0, width, height);
+  if (!wearAmbient()) {
+    image(grass[month()],0,0, width, height);
+  } else {
+    background(0);
+  }
   text(str(hour())+":"+minute(),width/2,height/2);
 }
