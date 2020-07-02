@@ -16,6 +16,7 @@ void draw() {
   }
   if (!wearAmbient()) {
     image(grass[month()],0,0, width, height);
+    image(bulletin,width/2-bulletin.width/2, height/2-bulletin.height/2);
   } else {
     background(0);
   }

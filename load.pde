@@ -1,4 +1,5 @@
 PImage[] grass = new PImage[13]; //Just to make the numbers easier, I am skipping 0
+PImage bulletin;
 void load() {
   grass[1]=loadImage("grass10.png");
   grass[2]=loadImage("grass5.png");
@@ -12,4 +13,6 @@ void load() {
   grass[10]=loadImage("grass7.png");
   grass[11]=loadImage("grass8.png");
   grass[12]=loadImage("grass9png");
+  
+  bulletin=loadImage("bulletinboard.png");
 }
