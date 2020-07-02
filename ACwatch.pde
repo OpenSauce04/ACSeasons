@@ -7,7 +7,13 @@ void setup() {
   textFont(font);
   textAlign(CENTER, CENTER);
 }
+String m;
 void draw() {
+  if (minute()<=9) {
+    m="0"+str(minute());
+  } else {
+    m=str(minute());
+  }
   image(grass[month()],0,0, width, height);
-  text("text",width/2,height/2);
+  text(str(hour())+":"+minute(),width/2,height/2);
 }
