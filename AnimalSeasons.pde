@@ -17,8 +17,17 @@ void draw() {
   if (!wearAmbient()) { // If the watch is on:
     image(grass[month()],0,0, width, height);
     image(bulletin,width/2-bulletin.width/2, height/2-bulletin.height/2); // Bulletin board background
+    fill(255);
+    text(str(hour())+":"+m,width/2,height/2); // Time
   } else { // If the watch is not on:
     background(0);
+    fill(255);
+    for(int x = -1; x < 2; x++){ // Generate outline
+      text(str(hour())+":"+m,(width/2)+x,height/2);
+      text(str(hour())+":"+m,width/2,(height/2)+x);
+    }
+    fill(0);
+    text(str(hour())+":"+m,width/2,height/2); // Draw text cutout to leave just the outline
   }
-  text(str(hour())+":"+m,width/2,height/2); // Time
+  
 }
