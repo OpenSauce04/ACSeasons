@@ -12,7 +12,7 @@ void load() {
   grass[9]=loadImage("grass6.png");  // September
   grass[10]=loadImage("grass7.png"); // October
   grass[11]=loadImage("grass8.png"); // November
-  grass[12]=loadImage("grass9png");  // December
+  grass[12]=loadImage("grass9.png");  // December
   
   bulletin=loadImage("bulletinboard.png");
 }
