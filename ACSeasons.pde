@@ -1,6 +1,6 @@
 PFont font;
 void setup() {
-  fullScreen();
+  fullScreen(P2D);
   load();
   frameRate(2); // To save battery
   font = createFont("FinkHeavy.ttf", 76);
