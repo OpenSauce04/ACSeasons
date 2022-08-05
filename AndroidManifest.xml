@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="6" android:versionName="2.0" package="com.opensauce.wear.animalseasons">
-    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="28"/>
+    <uses-sdk android:minSdkVersion="25" android:targetSdkVersion="29"/>
     <uses-feature android:name="android.hardware.type.watch"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <application android:icon="@mipmap/ic_launcher" android:label="" android:supportsRtl="true">
